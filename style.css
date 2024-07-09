@@ -1,0 +1,52 @@
+.flash-bg {
+    background-color: red ;
+}
+
+* {
+    background-color: #85c9b2;
+}
+
+h2, h3 {
+    text-align: center;
+}
+h2:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+h3 {
+    margin: 5px;
+    height: 86px;
+    line-height: 25px;
+}
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.btn {
+    width: 130px;
+    height: 130px;
+    margin: 18px;
+    border: 5px solid black;
+    border-radius: 15px;
+}
+.red {
+    background-color: #f34040;
+}
+.blue {
+    background-color: #6464c7;
+}
+.yellow {
+    background-color: #e2e23d;
+}
+.green {
+    background-color: #67c167;
+}
+.flash {
+    background-color: whitesmoke;
+}
